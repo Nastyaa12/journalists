@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;
+}
+
+.registration-container {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 257px 80px;
+  }
+
+  .registration-form {
+    border-radius: 30px;
+    display: flex;
+    width: 504px;
+    flex-direction: column;
+    padding: 38px 32px;
+    border: 2px solid #4689c8;
+  }
+
+  .form-title {
+    color: #4689c8;
+    align-self: center;
+    font: 64px Marck Script, sans-serif;
+  }
+
+  .input-label {
+    align-self: start;
+    margin: 13px 0 0 14px;
+  }
+
+  .form-input {
+    border-radius: 6px;
+    background-color: #d9d9d9;
+    display: flex;
+    margin-top: 11px;
+    height: 47px;
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+  }
+
+  .cta-button {
+    border-radius: 20px;
+    background-color: #f4961e;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 44px;
+    width: 335px;
+    max-width: 100%;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2.16px;
+    padding: 18px 50px;
+  }
+
+  .cta-button:hover {
+    background-color: #4689C8;
+    transition: all 0.4s ease;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+  }
+
+  @media (max-width: 991px) {
+    .registration-container {
+        padding: 677px 80px;
+        font: 400 20px
+      }
+      
+      .registration-form {
+        width: 504px;
+        max-width: 100%;
+        padding: 41px 32px;
+      }
+      
+      .form-title {
+        font: 64px;
+      }
+      
+      .form-group {
+        margin: 13px 0 0 14px;
+      }
+      
+      .form-input {
+        margin-top: 11px;
+        width: 100%;
+        font-size: 14px;
+        letter-spacing: 0.84px;
+        padding: 14px;
+      }
+      
+      .submit-button {
+        margin-top: 44px;
+        width: 335px;
+        max-width: 100%;
+        font-size: 36px;
+        letter-spacing: 2.16px;
+        padding: 18px 50px;
+      }
+      
+      .visually-hidden {
+        width: 1px;
+        height: 1px;
+        padding: 0;
+      }
+  }
